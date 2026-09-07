@@ -74,7 +74,7 @@ python src/pipeline.py --stage all
 
 Not redistributed here:
 
-1. **`statsbomb-360/data/three-sixty/`** — 360 freeze-frame JSONs (and match metadata under `matches/`)
+1. **`statsbomb-360/data/three-sixty/`** — 360 freeze-frame JSONs ([statsbomb/open-data/data/three-sixty](https://github.com/hudl/open-data/tree/master/data/three-sixty))
 2. **`open-data/data/events/`** — StatsBomb event JSONs ([statsbomb/open-data](https://github.com/statsbomb/open-data))
 
 Without local events, KSG can still fetch some event files on demand, but the **stats**
