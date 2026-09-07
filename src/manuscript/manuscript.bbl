@@ -1,0 +1,123 @@
+\begin{thebibliography}{10}
+
+\bibitem{benNaim2006}
+Eli Ben-Naim, Federico Vazquez, and Sidney Redner.
+\newblock Parity and predictability of competitions.
+\newblock {\em Journal of Quantitative Analysis in Sports}, 2(4), 2006.
+
+\bibitem{benjamini1995}
+Yoav Benjamini and Yosef Hochberg.
+\newblock Controlling the false discovery rate: a practical and powerful
+  approach to multiple testing.
+\newblock {\em Journal of the Royal Statistical Society: Series B},
+  57(1):289--300, 1995.
+
+\bibitem{buldu2018}
+Javier~M. Buld{\'u}, Javier Busquets, Johann~H. Mart{\'i}nez, Jos{\'e}~L.
+  Herrera-Diestra, I.~Echegoyen, Javier Galeano, and Jordi Luque.
+\newblock Using network science to analyse football passing networks: Dynamics,
+  space, time, and the multilayer nature of the game.
+\newblock {\em Frontiers in Psychology}, 9:1900, 2018.
+
+\bibitem{cheng2025}
+Yi-Shan Cheng, Acer Yu-Chan Chang, and Kenji Doya.
+\newblock Information-theoretical analysis of team dynamics in football
+  matches.
+\newblock {\em Entropy}, 27(3):224, 2025.
+
+\bibitem{everett2023}
+Gregory Everett, Ryan~J. Beal, Tim Matthews, Joseph Early, Timothy~J. Norman,
+  and Sarvapali~D. Ramchurn.
+\newblock Inferring player location in sports matches: Multi-agent spatial
+  imputation from limited observations.
+\newblock In {\em Proceedings of the 22nd International Conference on
+  Autonomous Agents and Multiagent Systems (AAMAS)}, 2023.
+
+\bibitem{hoel2013}
+Erik~P. Hoel, Larissa Albantakis, and Giulio Tononi.
+\newblock Quantifying causal emergence shows that macro can beat micro.
+\newblock {\em Proceedings of the National Academy of Sciences},
+  110(49):19790--19795, 2013.
+
+\bibitem{killick2012}
+Rebecca Killick, Paul Fearnhead, and Idris~A. Eckley.
+\newblock Optimal detection of changepoints with a linear computational cost.
+\newblock {\em Journal of the American Statistical Association},
+  107(500):1590--1598, 2012.
+
+\bibitem{kozachenko1987}
+L.~F. Kozachenko and Nikolai~N. Leonenko.
+\newblock Sample estimate of the entropy of a random vector.
+\newblock {\em Problems of Information Transmission}, 23(2):95--101, 1987.
+
+\bibitem{kraskov2004}
+Alexander Kraskov, Harald St{\"o}gbauer, and Peter Grassberger.
+\newblock Estimating mutual information.
+\newblock {\em Physical Review E}, 69(6):066138, 2004.
+
+\bibitem{low2020}
+Bruno Low, Diogo Coutinho, Bruno Gon{\c c}alves, Robert Rein, Daniel Memmert,
+  and Jaime Sampaio.
+\newblock A systematic review of collective tactical behaviours in football
+  using positional data.
+\newblock {\em Sports Medicine}, 50:343--385, 2020.
+
+\bibitem{mediano2021}
+Pedro A.~M. Mediano, Fernando~E. Rosas, Robin~L. Carhart-Harris, Anil~K. Seth,
+  and Adam~B. Barrett.
+\newblock Beyond integrated information: A taxonomy of information dynamics
+  phenomena.
+\newblock {\em arXiv preprint arXiv:1909.02297}, 2021.
+
+\bibitem{onnela2005}
+Jukka-Pekka Onnela, Jari Saram{\"a}ki, J{\'a}nos Kert{\'e}sz, and Kimmo Kaski.
+\newblock Intensity and coherence of motifs in weighted complex networks.
+\newblock {\em Physical Review E}, 71(6):065103, 2005.
+
+\bibitem{penn2023}
+Matthew~J. Penn, Christl~A. Donnelly, and Samir Bhatt.
+\newblock Continuous football player tracking from discrete broadcast data.
+\newblock {\em arXiv preprint arXiv:2311.14642}, 2023.
+
+\bibitem{rosas2020}
+Fernando~E. Rosas, Pedro A.~M. Mediano, Henrik~J. Jensen, Anil~K. Seth, Adam~B.
+  Barrett, Robin~L. Carhart-Harris, and Daniel Bor.
+\newblock Reconciling emergences: An information-theoretic approach to identify
+  causal emergence in multivariate data.
+\newblock {\em PLoS Computational Biology}, 16(12):e1008289, 2020.
+
+\bibitem{seth2010}
+Anil~K. Seth.
+\newblock Measuring autonomy and emergence via granger causality.
+\newblock {\em Artificial Life}, 16(2):179--196, 2010.
+
+\bibitem{simonsohn2020}
+Uri Simonsohn, Joseph~P. Simmons, and Leif~D. Nelson.
+\newblock Specification curve analysis.
+\newblock {\em Nature Human Behaviour}, 4:1208--1214, 2020.
+
+\bibitem{statsbomb}
+{StatsBomb}.
+\newblock Statsbomb open data.
+\newblock \url{https://github.com/statsbomb/open-data}, 2025.
+
+\bibitem{vicente2024}
+Lu{\'i}s~Nunes Vicente, Thaksheel~N. Alleck, Tommaso Giovannelli, Rachel
+  Mitchell, and Olivia Remen.
+\newblock Why is soccer so popular: Understanding underdog achievement and
+  randomness in team ball sports.
+\newblock {\em ISE Technical Report 24T-004, Lehigh University}, 2024.
+
+\bibitem{williams2010}
+Paul~L. Williams and Randall~D. Beer.
+\newblock Nonnegative decomposition of multivariate information.
+\newblock {\em arXiv preprint arXiv:1004.2515}, 2010.
+
+\bibitem{wunderlich2021}
+Fabian Wunderlich, Antoine Seck, and Daniel Memmert.
+\newblock The influence of randomness on goals in football decreases over time.
+  an empirical analysis of randomness involved in goal scoring in the english
+  premier league.
+\newblock {\em Journal of Sports Sciences}, 39(20):2322--2337, 2021.
+
+\end{thebibliography}

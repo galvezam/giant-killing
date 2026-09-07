@@ -1,0 +1,45 @@
+# Replication package — Python dependencies
+# Giant Killing in Football: An Information-Theoretic Analysis of Underdog Upsets
+#
+#   python -m venv .venv && source .venv/bin/activate
+#   pip install -r src/replication/requirements.txt
+#   cd src && python pipeline.py --stage all --limit 8 --quick
+#
+# Tested on Python 3.12.7 (macOS arm64, Linux x86_64).
+# Everything below is needed by pipeline.py. There are no optional extras.
+
+# --- core numerics --------------------------------------------------------
+numpy>=1.26,<3
+scipy>=1.11
+pandas>=2.1
+pyarrow>=14.0            # parquet I/O for every intermediate artefact
+
+# --- estimation and modelling ---------------------------------------------
+scikit-learn>=1.4        # KD-trees for KSG; random forest and CV for RQ5
+statsmodels>=0.14        # linear mixed models for RQ1/RQ2/RQ4 and sensitivity
+joblib>=1.3              # parallel map across matches and windows
+
+# --- figures ---------------------------------------------------------------
+matplotlib>=3.8
+
+# --- inputs ----------------------------------------------------------------
+openpyxl>=3.1            # reads upset_list.xlsx / control_lists.xlsx
+
+# --- validation only -------------------------------------------------------
+# networkx is used by `--stage validate` to check the vectorised Onnela
+# clustering coefficient against nx.average_clustering (they agree to 2e-16).
+# The pipeline itself uses the vectorised form; if networkx is absent that one
+# check is reported as SKIPPED and everything else still runs.
+networkx>=3.2
+
+# NOT REQUIRED
+# ------------
+# `torch` appears in two exploratory Sprint-1/2 notebooks and in a GPU hook in
+# ksg_impl.ipynb that always fell back to CPU. No result in the manuscript
+# depends on it and pipeline.py never imports it.
+#
+# `jupyter` / `ipykernel` are only needed to open the retained notebooks for
+# reference. pipeline.py replaces them; see REPRODUCE.md §1.
+#
+# R components (Sprint 1, upset/control list construction) are listed in
+# REPRODUCE.md §3 Path C, not here. The two .xlsx outputs ship with the package.
